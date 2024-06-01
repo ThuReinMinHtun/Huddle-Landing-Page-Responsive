@@ -159,12 +159,12 @@ body {
   .main-container {
     width: 100%;
     height: auto;
-    min-height: 1000px;
+    min-height: 1040px;
     flex-direction: column;
     background-image: url(./images/bg-mobile.svg);
     background-repeat: no-repeat;
     background-position: top;
-    background-size: 150%;
+    background-size:130%;
   }
   .container {
     width: 90%;
@@ -209,6 +209,26 @@ body {
   .btn {
     width: 50%;
     height: 50px;
-    margin-left: 55%;
+    margin-left: 60%;
+  }
+  .social-logo{
+    width: 190px;
+    margin: 0 auto;
+    justify-content: space-between;
+    text-align: center;
+  }
+  .icon{
+    width: 40px;
+    height: 40px;
+    margin-top: 50%;
+  }
+  .link{
+    margin:0 70px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .link a:hover{
+    color: white;
   }
 }
